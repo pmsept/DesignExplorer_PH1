@@ -438,7 +438,7 @@ ScatterMatrix.prototype.__draw = function(cell_size, container_el, color_variabl
             return axis;
         };
 
-        // Draw X-axis
+        /* Draw X-axis
         svg.selectAll("g.x.axis")
             .data(x_variables)
             .enter().append("svg:g")
@@ -491,7 +491,7 @@ ScatterMatrix.prototype.__draw = function(cell_size, container_el, color_variabl
                 var s = self.__numeric_variables.indexOf(d.y) + 1;
                 s = '' + s + ': ' + d.y;
                 return shorten(s);
-            });
+            }); */
 
 
 
